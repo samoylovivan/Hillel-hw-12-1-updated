@@ -13,7 +13,7 @@ public class Main {
         Stack<StringBuilder> stack = new Stack<>();
 
         for (char ch: s.toCharArray()) {
-            if(Character.isAlphabetic(ch)){
+            if(Character.isLetter(ch)){
                 tmp.append(ch);
             }
             else {
